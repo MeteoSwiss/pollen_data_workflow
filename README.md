@@ -7,3 +7,6 @@ A. 4 protocol files:
 B. 2 R code files:
 - read_zipfile: extracts the .json files from the zip files (1 zip file = 1 dataset), then reads the .json files and creates an .Rdata dataframe with all the .json information for all datasets
 - explore_data: based on the json dataframe created with read_zipfile.R, summarises the data information, filters the data and creates PCA plots
+
+C. a .xlsx file
+- db_metadata_pollen_base.xlsx is a blank version of the metadatabase file that describes the pollen samples and datasets
