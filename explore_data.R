@@ -13,7 +13,7 @@ rm(list = ls())
 ### TO CHANGE
 mypath <- "your_path/MCH_datasets_pollen_2023-2024"
 
-# load the json dataframe file jsondf.RData (= output of the read_zipfile.R code), also directly available in the GitHub repo
+# load the json dataframe file jsondf.RData (= output of the read_zipfile.R code), also directly available in Zenodo
 load(paste(mypath, "/code_output/jsondf.RData", sep = ""))
 
 # packages ----------------------------------------------------------------
@@ -62,7 +62,7 @@ df1 <- df %>%
 
 
 # list of ids of events to remove (no img) --------------------------------
-# also available directly in the GitHub repo
+# also available directly in Zenodo
 rm_ids <- df %>% 
   filter(if_all(c(area,
                    eccentricity,
